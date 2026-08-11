@@ -1,0 +1,1 @@
+document.getElementById("openBtn").addEventListener("click",()=>{document.getElementById("cover").classList.add("hidden");document.getElementById("letter").classList.remove("hidden");window.scrollTo({top:0,behavior:"smooth"});});
